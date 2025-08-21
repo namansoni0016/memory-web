@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
     return (
-        <section className="relative flex flex-col items-center justify-center text-center py-40">
+        <section className="relative flex flex-col items-center justify-center text-center py-28">
             <motion.h1
                 initial={{ opacity: 0, y: 20}}
                 animate={{ opacity: 1, y: 0}}
@@ -17,7 +17,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20}}
                 animate={{ opacity: 1, y: 0}}
                 transition={{ delay: 0.3 }}
-                className="mt-6 max-w-3xl text-lg text-gray-400">
+                className="mt-6 max-w-3xl text-lg">
                 Memory web helps you store, recall, and connect your thoughts like never before!
             </motion.p>
             <motion.div 
